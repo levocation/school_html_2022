@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>마지막 테스트</title>
+</head>
+<body>
+    <header>
+        <img src="./image.png" alt="이미지를 불러올 수 없음">
+        <h1>HTML, CSS 마지막 실습하기</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="./index.html">홈</a></li>
+            <li><a href="https://www.google.co.kr/">구글링하기</a></li>
+            <li><a href="" class="login" onclick="alert('로그인하세요!')">로그인</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div>
+            <h2>오늘의 시간표</h2>
+            <table>
+                <tr>
+                    <td></td>
+                    <th>5월 17일 화요일</td>
+                </tr>
+                <tr>
+                    <th>1교시</td>
+                    <td>HTML 코드 완성</td>
+                </tr>
+                <tr>
+                    <th>2교시</td>
+                    <td>CSS 코드 작성</td>
+                </tr>
+                <tr>
+                    <th>3교시</td>
+                    <td rowspan="2">화면 완성하기</td>
+                </tr>
+                <tr>
+                    <th>4교시</td>
+                </tr>
+                <tr>
+                    <th colspan="2">점심시간</td>
+                </tr>
+                <tr>    
+                    <th>5교시</td>  
+                    <td rowspan="2">javascript 공부</td>
+                </tr>
+                <tr>
+                    <th>6교시</td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <form>
+                <h2>회원가입하기</h2>
+                <label for="ID">아이디</label>
+                <input type="text" name="id" id="ID" placeholder="아이디를 입력하세요" required>
+                <label for="PW">비밀번호</label>
+                <input type="password" name="pw" id="PW" placeholder="비밀번호를 입력하세요" required>
+                <input type="submit" value="제출">
+            </form>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div>
+            QUOTIENT에 의해 2022년 5월 17일 작성됨
+        </div>
+    </footer>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
